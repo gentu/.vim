@@ -16,7 +16,7 @@ set synmaxcol=200
 " http://vim.wikia.com/wiki/Project_specific_settings
 function! SetupEnvironment()
   let l:path = expand('%:p')
-  if l:path =~ '/Users/morr/develop/shikimori/'
+  if l:path =~ '/home/max/develop/shikimori/'
     setlocal colorcolumn=101
   endif
 endfunction
